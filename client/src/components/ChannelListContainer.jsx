@@ -39,12 +39,12 @@ function ChannelListContainer() {
         <ChannelList
           filters={{}}
           channelRenderFilterFn={() => { }}
-          List={(listProps) => {
+          List={(listProps) => (
             <TeamChannelList
               {...listProps}
               type="team"
             />
-          }}
+          )}
           Preview={(previewProps) => {
             <TeamChannelPreview
               {...previewProps}
