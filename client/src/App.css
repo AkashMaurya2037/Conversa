@@ -12,6 +12,7 @@ body {
 
 #root {
   height: 100%;
+  width: 100%;
 }
 
 .auth__form-container {
@@ -961,6 +962,13 @@ body {
   cursor: pointer;
 }
 
+/* Edited */
+.team-channel-list div svg{
+  cursor: pointer;
+  display: none;
+}
+
+
 .team-channel-list__header__title {
   font-family: Helvetica Neue, sans-serif;
   font-size: 13px;
@@ -1824,4 +1832,9 @@ div.rta__autocomplete.str-chat__emojisearch {
   .channel-list__sidebar {
     display: none;
   }
+}
+
+/* Edited */
+.str-chat__channel-list{
+   background: #006cff !important;
 }

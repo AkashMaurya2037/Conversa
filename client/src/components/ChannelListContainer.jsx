@@ -45,29 +45,30 @@ function ChannelListContainer() {
               type="team"
             />
           )}
-          Preview={(previewProps) => {
+          Preview={(previewProps) => (
             <TeamChannelPreview
               {...previewProps}
               type="team"
             />
-          }}
+          )}
         />
         <ChannelList
           filters={{}}
           channelRenderFilterFn={() => { }}
-          List={(listProps) => {
+          List={(listProps) => (
             <TeamChannelList
               {...listProps}
               type="messaging"
             />
-          }}
-          Preview={(previewProps) => {
+          )}
+          Preview={(previewProps) => (
             <TeamChannelPreview
               {...previewProps}
               type="messaging"
             />
-          }}
+          )}
         />
+
       </div>
     </>
   );

@@ -13,7 +13,7 @@
     "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "stream-chat": "^8.9.0",
+    "stream-chat": "^4.1.0",
     "stream-chat-react": "^10.8.3",
     "universal-cookie": "^4.0.4"
   },
